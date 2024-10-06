@@ -8,3 +8,9 @@ repository = "https://github.com/fitzgen/mach_o_sys"
 version = "0.1.1"
 
 [dependencies]
+libc = "0.2"
+
+[dev-dependencies]
+generate-bindings = { path = "generate-bindings" }
+
+[workspace]
